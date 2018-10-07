@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+   <bean id="UserDao" class="com.ado.solitu.dao.impl.UserDaoImpl"></bean>
+   <bean id="UserService" class="com.ado.solitu.service.impl.UserServiceImpl"></bean>
+   <bean id="Transaction" class="com.ado.solitu.transaction.impl.TransactionImpl"></bean>
+</beans>
